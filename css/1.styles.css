@@ -1,0 +1,78 @@
+ /* 1.inline and block element */
+
+body{
+    margin: 0;
+    text-align: center;  /*This will make every thing in center until and unless the other does not have "Width". If some func has width then we can use "Margin..."*/
+    color: #40514E;
+    background-color: #E4F9F5;
+}
+
+div{
+    background-color: #E4F9F5;
+    
+}
+h1{
+    margin-top:50px;
+    /* width: 80%;  */
+    margin: 0 auto 0 auto; 
+    font-size: 4rem;      /*...16px = 100% = 1em...*/
+}
+
+.top-container{
+    background-color: #62B6B7;
+    height: 600px;
+    /* width: 2000px;
+    padding: 20px;   */
+    /* border: solid black 10px; */
+    position: relative;
+    padding-top: 100px;
+
+}
+.middle-container{
+    margin: 10px 0;
+}
+.bottom-container{
+    background-color: #66bfbf;
+    padding: 50px 0 50px;
+}
+
+p{
+    /* width: 100px;*/
+    /* display:inline-block;  */
+    margin: 0 auto 0 auto;
+    font-size: 1.5rem;
+}
+
+hr{
+    border: dotted grey 6px;
+    border-bottom: none;
+    width: 6%;
+    margin: 30px auto;
+}
+
+span{
+    /* background-color: blue; */
+    width: 100px;
+    font-size: 1.5rem;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.second-p{
+    /* display:none; OR*/
+    visibility: hidden;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    top: 200px;
+    margin: 50px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
